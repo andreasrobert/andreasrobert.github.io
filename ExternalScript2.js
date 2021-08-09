@@ -11,19 +11,16 @@ class GradientAnimation {
       // (window.onresize = () => {
         
       // })();
-      // this.setCanvasSize();
-      this.w = this.cnv.width  = innerWidth * devicePixelRatio;
-      this.h = this.cnv.height = innerHeight * devicePixelRatio;
-      this.ctx.scale(devicePixelRatio, devicePixelRatio)
+      this.setCanvasSize();
       this.createCircles();
       this.drawAnimation();
   
     }
-    // setCanvasSize() {
-    //   this.w = this.cnv.width  = innerWidth * devicePixelRatio;
-    //   this.h = this.cnv.height = innerHeight * devicePixelRatio;
-    //   this.ctx.scale(devicePixelRatio, devicePixelRatio)
-    // }
+    setCanvasSize() {
+      this.w = this.cnv.width  = innerWidth * devicePixelRatio;
+      this.h = this.cnv.height = innerHeight * devicePixelRatio;
+      this.ctx.scale(devicePixelRatio, devicePixelRatio)
+    }
     createCircles() {
       this.circles = [];
       for (let i = 0 ; i < this.circlesNum ; ++i) {
