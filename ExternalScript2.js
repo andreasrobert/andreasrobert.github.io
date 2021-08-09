@@ -8,18 +8,22 @@ class GradientAnimation {
       this.maxRadius  = 500;
       this.speed      = .009;
       
-      (window.onresize = () => {
-        this.setCanvasSize();
-        this.createCircles();
-      })();
-      this.drawAnimation();
-  
-    }
-    setCanvasSize() {
+      // (window.onresize = () => {
+        
+      // })();
+      // this.setCanvasSize();
       this.w = this.cnv.width  = innerWidth * devicePixelRatio;
       this.h = this.cnv.height = innerHeight * devicePixelRatio;
       this.ctx.scale(devicePixelRatio, devicePixelRatio)
+      this.createCircles();
+      this.drawAnimation();
+  
     }
+    // setCanvasSize() {
+    //   this.w = this.cnv.width  = innerWidth * devicePixelRatio;
+    //   this.h = this.cnv.height = innerHeight * devicePixelRatio;
+    //   this.ctx.scale(devicePixelRatio, devicePixelRatio)
+    // }
     createCircles() {
       this.circles = [];
       for (let i = 0 ; i < this.circlesNum ; ++i) {
