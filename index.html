@@ -22,7 +22,7 @@
       gtag("js", new Date());
       gtag("config", "G-9Y49XNPXEF");
     </script>
-  <link rel="stylesheet" href="/assets/index.d5a2d7dc.css" /><script type="module">const n=document.getElementById("show-link"),l=document.getElementById("project-link"),d=document.getElementById("contact-link");n?.addEventListener("click",()=>{const e=n.getAttribute("data-show")=="true",t=document.getElementById("desc");n.setAttribute("data-show",e?"false":"true"),n.textContent=e?"Show more.":"Show less.",t.classList.add("hidden"),t.textContent=e?"Hi \u{1F44B} call me Robert.":"Hi \u{1F44B} I'm Andreas Robert Pitoy, call me Robert. I'm a software engineer, and below are some of the things that i build throughout they years on my time off.",setTimeout(()=>{t.classList.remove("hidden")},1)});l?.addEventListener("click",()=>{document.getElementById("project")?.scrollIntoView({behavior:"smooth"})});d?.addEventListener("click",()=>{document.getElementById("contact")?.scrollIntoView({behavior:"smooth"})});const h=document.querySelectorAll(".stack-right"),m=document.querySelectorAll(".stack-left"),u=document.querySelectorAll(".expand-stack"),y=document.querySelectorAll(".collapse-stack");u.forEach(e=>{e.addEventListener("click",()=>{const t=e.getAttribute("data-order"),s=document.querySelector(`.m-stack[data-order="${t}"]`);document.querySelector(`.collapse-stack[data-order="${t}"]`).classList.remove("hidden"),e.classList.add("hidden"),s.classList.remove("hid"),s.classList.add("vis")})});y.forEach(e=>{e.addEventListener("click",()=>{const t=e.getAttribute("data-order"),s=document.querySelector(`.m-stack[data-order="${t}"]`);document.querySelector(`.expand-stack[data-order="${t}"]`).classList.remove("hidden"),e.classList.add("hidden"),s.classList.remove("vis"),s.classList.add("hid")})});const v=new IntersectionObserver(e=>{e.forEach(t=>{const s=t.target;t.isIntersecting?(s.style.opacity="1",s.style.transform="translateX(0)",s.style.transition="all 0.4s"):(s.style.opacity="0",s.style.transform="translateX(-50px)",s.style.transition="all 0.4s 1s")})},{rootMargin:"-200px 0px 0px 0px",threshold:1}),p=new IntersectionObserver(e=>{e.forEach(t=>{const s=t.target;t.isIntersecting?(s.style.opacity="1",s.style.transform="translateX(0)",s.style.transition="all 0.4s"):(s.style.opacity="0",s.style.transform="translateX(50px)",s.style.transition="all 0.4s 1s")})},{rootMargin:"-200px 0px 0px 0px",threshold:1});m.forEach(function(e){e.style.opacity="0",e.style.transform="translateX(-50px)",v.observe(e)});h.forEach(function(e){e.style.opacity="0",e.style.transform="translateX(50px)",p.observe(e)});class f{constructor(){this.cnv=document.querySelector("canvas"),this.ctx=this.cnv.getContext("2d"),this.circlesNum=25,this.minRadius=500,this.maxRadius=500,this.speed=.009,this.setCanvasSize(),this.createCircles(),this.drawAnimation()}setCanvasSize(){this.w=this.cnv.width=innerWidth*devicePixelRatio,this.h=this.cnv.height=innerHeight*devicePixelRatio,this.ctx.scale(devicePixelRatio,devicePixelRatio)}createCircles(){this.circles=[];for(let t=0;t<this.circlesNum;++t)this.circles.push(new w(this.w,this.h,this.minRadius,this.maxRadius))}drawCircles(){this.circles.forEach(t=>t.draw(this.ctx,this.speed))}clearCanvas(){this.ctx.clearRect(0,0,this.w,this.h)}drawAnimation(){this.clearCanvas(),this.drawCircles(),window.requestAnimationFrame(()=>this.drawAnimation())}}class w{constructor(t,s,a,i){this.x=Math.random()*t,this.y=Math.random()*s,this.angle=Math.random()*Math.PI*2,this.radius=Math.random()*(i-a)+a;var o=Math.random()*250-180,r=Math.random()*250-180,c=(o+r)/2;this.firstColor=`hsla(${o>0?o:360+o}, 100%, 70%, 0.4)`,this.firstHalfColor=`hsla(${c>0?c:360+c}, 100%, 70%, 0.75)`,this.secondColor=`hsla(${r>0?r:360+r}, 100%, 70%, 0)`}draw(t,s){this.angle+=s;const a=this.x+Math.cos(this.angle)*200,i=this.y+Math.sin(this.angle)*200,o=t.createRadialGradient(a,i,0,a,i,this.radius);o.addColorStop(0,this.firstColor),o.addColorStop(1,this.secondColor),t.globalCompositeOperation="overlay ",t.fillStyle=o,t.beginPath(),t.arc(a,i,this.radius,0,Math.PI*2),t.fill()}}window.onload=()=>{new f};
+  <link rel="stylesheet" href="/assets/index.466ccd98.css" /><script type="module">const n=document.getElementById("show-link"),l=document.getElementById("project-link"),d=document.getElementById("contact-link");n?.addEventListener("click",()=>{const e=n.getAttribute("data-show")=="true",t=document.getElementById("desc");n.setAttribute("data-show",e?"false":"true"),n.textContent=e?"Show more.":"Show less.",t.classList.add("hidden"),t.textContent=e?"Hi \u{1F44B} call me Robert.":"Hi \u{1F44B} I'm Andreas Robert Pitoy, call me Robert. I'm a software engineer, and below are some of the things that i build throughout they years on my time off.",setTimeout(()=>{t.classList.remove("hidden")},1)});l?.addEventListener("click",()=>{document.getElementById("project")?.scrollIntoView({behavior:"smooth"})});d?.addEventListener("click",()=>{document.getElementById("contact")?.scrollIntoView({behavior:"smooth"})});const h=document.querySelectorAll(".stack-right"),m=document.querySelectorAll(".stack-left"),u=document.querySelectorAll(".expand-stack"),y=document.querySelectorAll(".collapse-stack");u.forEach(e=>{e.addEventListener("click",()=>{const t=e.getAttribute("data-order"),s=document.querySelector(`.m-stack[data-order="${t}"]`);document.querySelector(`.collapse-stack[data-order="${t}"]`).classList.remove("hidden"),e.classList.add("hidden"),s.classList.remove("hid"),s.classList.add("vis")})});y.forEach(e=>{e.addEventListener("click",()=>{const t=e.getAttribute("data-order"),s=document.querySelector(`.m-stack[data-order="${t}"]`);document.querySelector(`.expand-stack[data-order="${t}"]`).classList.remove("hidden"),e.classList.add("hidden"),s.classList.remove("vis"),s.classList.add("hid")})});const v=new IntersectionObserver(e=>{e.forEach(t=>{const s=t.target;t.isIntersecting?(s.style.opacity="1",s.style.transform="translateX(0)",s.style.transition="all 0.4s"):(s.style.opacity="0",s.style.transform="translateX(-50px)",s.style.transition="all 0.4s 1s")})},{rootMargin:"-200px 0px 0px 0px",threshold:1}),p=new IntersectionObserver(e=>{e.forEach(t=>{const s=t.target;t.isIntersecting?(s.style.opacity="1",s.style.transform="translateX(0)",s.style.transition="all 0.4s"):(s.style.opacity="0",s.style.transform="translateX(50px)",s.style.transition="all 0.4s 1s")})},{rootMargin:"-200px 0px 0px 0px",threshold:1});m.forEach(function(e){e.style.opacity="0",e.style.transform="translateX(-50px)",v.observe(e)});h.forEach(function(e){e.style.opacity="0",e.style.transform="translateX(50px)",p.observe(e)});class f{constructor(){this.cnv=document.querySelector("canvas"),this.ctx=this.cnv.getContext("2d"),this.circlesNum=25,this.minRadius=500,this.maxRadius=500,this.speed=.009,this.setCanvasSize(),this.createCircles(),this.drawAnimation()}setCanvasSize(){this.w=this.cnv.width=innerWidth*devicePixelRatio,this.h=this.cnv.height=innerHeight*devicePixelRatio,this.ctx.scale(devicePixelRatio,devicePixelRatio)}createCircles(){this.circles=[];for(let t=0;t<this.circlesNum;++t)this.circles.push(new w(this.w,this.h,this.minRadius,this.maxRadius))}drawCircles(){this.circles.forEach(t=>t.draw(this.ctx,this.speed))}clearCanvas(){this.ctx.clearRect(0,0,this.w,this.h)}drawAnimation(){this.clearCanvas(),this.drawCircles(),window.requestAnimationFrame(()=>this.drawAnimation())}}class w{constructor(t,s,a,i){this.x=Math.random()*t,this.y=Math.random()*s,this.angle=Math.random()*Math.PI*2,this.radius=Math.random()*(i-a)+a;var o=Math.random()*250-180,r=Math.random()*250-180,c=(o+r)/2;this.firstColor=`hsla(${o>0?o:360+o}, 100%, 70%, 0.4)`,this.firstHalfColor=`hsla(${c>0?c:360+c}, 100%, 70%, 0.75)`,this.secondColor=`hsla(${r>0?r:360+r}, 100%, 70%, 0)`}draw(t,s){this.angle+=s;const a=this.x+Math.cos(this.angle)*200,i=this.y+Math.sin(this.angle)*200,o=t.createRadialGradient(a,i,0,a,i,this.radius);o.addColorStop(0,this.firstColor),o.addColorStop(1,this.secondColor),t.globalCompositeOperation="overlay ",t.fillStyle=o,t.beginPath(),t.arc(a,i,this.radius,0,Math.PI*2),t.fill()}}window.onload=()=>{new f};
 </script></head>
   <body>
     <main>
@@ -45,41 +45,41 @@
       </p>
     </section>
     <section class="flex flex-col lg:px-6">
-      <div class="flex justify-center astro-KVG36FBZ">
-  <div class="w-[850px] hidden lg:flex astro-KVG36FBZ"></div>
-  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-KVG36FBZ">
-    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-right left-[-70%] astro-KVG36FBZ">
-      <ul class="mt-1 astro-KVG36FBZ">
-        <li class="astro-KVG36FBZ">Flutter.</li><li class="astro-KVG36FBZ">Golang.</li><li class="astro-KVG36FBZ">AWS Lambda.</li><li class="astro-KVG36FBZ">DynamoDB.</li><li class="astro-KVG36FBZ">AWS API Gateway.</li><li class="astro-KVG36FBZ">Auth0.</li><li class="astro-KVG36FBZ">Dart.</li><li class="astro-KVG36FBZ">Flutter Provider.</li>
+      <div class="flex justify-center astro-VTEBJ53Z">
+  <div class="w-[850px] hidden lg:flex astro-VTEBJ53Z"></div>
+  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-VTEBJ53Z">
+    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-right left-[-70%] astro-VTEBJ53Z">
+      <ul class="mt-1 astro-VTEBJ53Z">
+        <li class="astro-VTEBJ53Z">Flutter.</li><li class="astro-VTEBJ53Z">Golang.</li><li class="astro-VTEBJ53Z">AWS Lambda.</li><li class="astro-VTEBJ53Z">DynamoDB.</li><li class="astro-VTEBJ53Z">AWS API Gateway.</li><li class="astro-VTEBJ53Z">Auth0.</li><li class="astro-VTEBJ53Z">Dart.</li><li class="astro-VTEBJ53Z">Flutter Provider.</li>
       </ul>
     </div>
-    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-KVG36FBZ">
-      <img alt="Watchdiary" class="rounded-[10px] p-[1.5px] bg-white astro-KVG36FBZ" width="330" height="211" src="/assets/watchdiaryImg_1rRBjb.webp" loading="lazy" decoding="async">
+    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-VTEBJ53Z">
+      <img alt="Watchdiary" class="rounded-[10px] p-[1.5px] bg-white astro-VTEBJ53Z" width="330" height="211" src="/assets/watchdiaryImg_dahQ2.webp" loading="lazy" decoding="async">
     </div>
-    <div class="flex my-5 items-center astro-KVG36FBZ">
-      <img alt="Watchdiary" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-KVG36FBZ" width="40" height="40" src="/assets/watchdiary_Zli2a9.png" loading="lazy" decoding="async">
-      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-KVG36FBZ">Watchdiary</h2>
+    <div class="flex my-5 items-center astro-VTEBJ53Z">
+      <img alt="Watchdiary" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-VTEBJ53Z" width="40" height="40" src="/assets/watchdiary_Z1A0lCi.png" loading="lazy" decoding="async">
+      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-VTEBJ53Z">Watchdiary</h2>
     </div>
-    <p class="text-[17px] astro-KVG36FBZ">Track what you watch and when you watched it.</p>
-    <div class="flex mt-auto pt-[40px] justify-end astro-KVG36FBZ">
+    <p class="text-[17px] astro-VTEBJ53Z">Track what you watch and when you watched it.</p>
+    <div class="flex mt-auto pt-[40px] justify-end astro-VTEBJ53Z">
       
       
-      <a href="https://apps.apple.com/app/watchdiary-track-movie-tv/id6443872727" class="astro-KVG36FBZ">
-            <img alt="appstore" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-play ml-3 astro-KVG36FBZ" width="40" height="40" src="/assets/appstore_Z2bPwRh.svg" loading="lazy" decoding="async">
+      <a href="https://apps.apple.com/app/watchdiary-track-movie-tv/id6443872727" class="astro-VTEBJ53Z">
+            <img alt="appstore" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-play ml-3 astro-VTEBJ53Z" width="40" height="40" src="/assets/appstore_1KO9NG.svg" loading="lazy" decoding="async">
           </a>
-      <a href="https://play.google.com/store/apps/details?id=com.main.watchdiary" class="astro-KVG36FBZ">
-            <img alt="playstore" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-blu ml-3 astro-KVG36FBZ" width="40" height="40" src="/assets/playstore_1V3vT8.svg" loading="lazy" decoding="async">
+      <a href="https://play.google.com/store/apps/details?id=com.main.watchdiary" class="astro-VTEBJ53Z">
+            <img alt="playstore" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-blu ml-3 astro-VTEBJ53Z" width="40" height="40" src="/assets/playstore_ZJjP7m.svg" loading="lazy" decoding="async">
           </a>
     </div>
-    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-KVG36FBZ">
-      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-KVG36FBZ" data-order="1">
+    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-VTEBJ53Z">
+      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-VTEBJ53Z" data-order="1">
         -
       </div>
 
-      <ul data-order="1" class="text-center hid m-stack mt-1 flex-col astro-KVG36FBZ">
-        <li class="mt-1 astro-KVG36FBZ">Flutter.</li><li class="mt-1 astro-KVG36FBZ">Golang.</li><li class="mt-1 astro-KVG36FBZ">AWS Lambda.</li><li class="mt-1 astro-KVG36FBZ">DynamoDB.</li><li class="mt-1 astro-KVG36FBZ">AWS API Gateway.</li><li class="mt-1 astro-KVG36FBZ">Auth0.</li><li class="mt-1 astro-KVG36FBZ">Dart.</li><li class="mt-1 astro-KVG36FBZ">Flutter Provider.</li>
+      <ul data-order="1" class="text-center hid m-stack mt-1 flex-col astro-VTEBJ53Z">
+        <li class="mt-1 astro-VTEBJ53Z">Flutter.</li><li class="mt-1 astro-VTEBJ53Z">Golang.</li><li class="mt-1 astro-VTEBJ53Z">AWS Lambda.</li><li class="mt-1 astro-VTEBJ53Z">DynamoDB.</li><li class="mt-1 astro-VTEBJ53Z">AWS API Gateway.</li><li class="mt-1 astro-VTEBJ53Z">Auth0.</li><li class="mt-1 astro-VTEBJ53Z">Dart.</li><li class="mt-1 astro-VTEBJ53Z">Flutter Provider.</li>
       </ul>
-      <button data-order="1" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-KVG36FBZ">
+      <button data-order="1" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-VTEBJ53Z">
         +
       </button>
     </div>
@@ -89,173 +89,85 @@
 
 
 
-<div class="flex justify-center astro-KVG36FBZ">
+<div class="flex justify-center astro-VTEBJ53Z">
   
-  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-KVG36FBZ">
-    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-left right-[-70%] astro-KVG36FBZ">
-      <ul class="mt-1 astro-KVG36FBZ">
-        <li class="astro-KVG36FBZ">Node js.</li><li class="astro-KVG36FBZ">Jwt.</li><li class="astro-KVG36FBZ">MongoDB.</li><li class="astro-KVG36FBZ">GraphQL.</li><li class="astro-KVG36FBZ">Next js.</li><li class="astro-KVG36FBZ">React.</li><li class="astro-KVG36FBZ">Styled Components.</li><li class="astro-KVG36FBZ">TypeScript.</li>
+  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-VTEBJ53Z">
+    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-left right-[-70%] astro-VTEBJ53Z">
+      <ul class="mt-1 astro-VTEBJ53Z">
+        <li class="astro-VTEBJ53Z">Node js.</li><li class="astro-VTEBJ53Z">Jwt.</li><li class="astro-VTEBJ53Z">MongoDB.</li><li class="astro-VTEBJ53Z">GraphQL.</li><li class="astro-VTEBJ53Z">Next js.</li><li class="astro-VTEBJ53Z">React.</li><li class="astro-VTEBJ53Z">Styled Components.</li><li class="astro-VTEBJ53Z">TypeScript.</li>
       </ul>
     </div>
-    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-KVG36FBZ">
-      <img alt="audiophile" class="rounded-[10px] p-[1.5px] bg-white astro-KVG36FBZ" width="330" height="211" src="/assets/audiophileImg_vc6I3.webp" loading="lazy" decoding="async">
+    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-VTEBJ53Z">
+      <img alt="audiophile" class="rounded-[10px] p-[1.5px] bg-white astro-VTEBJ53Z" width="330" height="211" src="/assets/audiophileImg_ZIvcJ6.webp" loading="lazy" decoding="async">
     </div>
-    <div class="flex my-5 items-center astro-KVG36FBZ">
-      <img alt="audiophile" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-KVG36FBZ" width="40" height="40" src="/assets/audiophile_xq1rV.png" loading="lazy" decoding="async">
-      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-KVG36FBZ">audiophile</h2>
+    <div class="flex my-5 items-center astro-VTEBJ53Z">
+      <img alt="audiophile" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-VTEBJ53Z" width="40" height="40" src="/assets/audiophile_ZGhi0d.png" loading="lazy" decoding="async">
+      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-VTEBJ53Z">audiophile</h2>
     </div>
-    <p class="text-[17px] astro-KVG36FBZ">A fullstack e-commerce website demo.</p>
-    <div class="flex mt-auto pt-[40px] justify-end astro-KVG36FBZ">
-      <a href="https://github.com/andreasrobert/ecommerce-audiophile-client" class="astro-KVG36FBZ">
-            <img alt="github" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-git astro-KVG36FBZ" width="40" height="40" src="/assets/github_Z2gU94w.svg" loading="lazy" decoding="async">
+    <p class="text-[17px] astro-VTEBJ53Z">A fullstack e-commerce website demo.</p>
+    <div class="flex mt-auto pt-[40px] justify-end astro-VTEBJ53Z">
+      <a href="https://github.com/andreasrobert/ecommerce-audiophile-client" class="astro-VTEBJ53Z">
+            <img alt="github" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-git astro-VTEBJ53Z" width="40" height="40" src="/assets/github_ZrCjwg.svg" loading="lazy" decoding="async">
           </a>
-      <a href="https://ecommerce-audiophile.netlify.app" class="astro-KVG36FBZ">
-            <img alt="link" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-red ml-3 astro-KVG36FBZ" width="40" height="40" src="/assets/external-link_Z9bGpM.svg" loading="lazy" decoding="async">
+      <a href="https://ecommerce-audiophile.netlify.app" class="astro-VTEBJ53Z">
+            <img alt="link" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-red ml-3 astro-VTEBJ53Z" width="40" height="40" src="/assets/external-link_Z1gI8xK.svg" loading="lazy" decoding="async">
           </a>
       
       
     </div>
-    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-KVG36FBZ">
-      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-KVG36FBZ" data-order="2">
+    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-VTEBJ53Z">
+      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-VTEBJ53Z" data-order="2">
         -
       </div>
 
-      <ul data-order="2" class="text-center hid m-stack mt-1 flex-col astro-KVG36FBZ">
-        <li class="mt-1 astro-KVG36FBZ">Node js.</li><li class="mt-1 astro-KVG36FBZ">Jwt.</li><li class="mt-1 astro-KVG36FBZ">MongoDB.</li><li class="mt-1 astro-KVG36FBZ">GraphQL.</li><li class="mt-1 astro-KVG36FBZ">Next js.</li><li class="mt-1 astro-KVG36FBZ">React.</li><li class="mt-1 astro-KVG36FBZ">Styled Components.</li><li class="mt-1 astro-KVG36FBZ">TypeScript.</li>
+      <ul data-order="2" class="text-center hid m-stack mt-1 flex-col astro-VTEBJ53Z">
+        <li class="mt-1 astro-VTEBJ53Z">Node js.</li><li class="mt-1 astro-VTEBJ53Z">Jwt.</li><li class="mt-1 astro-VTEBJ53Z">MongoDB.</li><li class="mt-1 astro-VTEBJ53Z">GraphQL.</li><li class="mt-1 astro-VTEBJ53Z">Next js.</li><li class="mt-1 astro-VTEBJ53Z">React.</li><li class="mt-1 astro-VTEBJ53Z">Styled Components.</li><li class="mt-1 astro-VTEBJ53Z">TypeScript.</li>
       </ul>
-      <button data-order="2" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-KVG36FBZ">
+      <button data-order="2" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-VTEBJ53Z">
         +
       </button>
     </div>
   </div>
-  <div class="w-[850px] hidden lg:flex astro-KVG36FBZ"></div>
+  <div class="w-[850px] hidden lg:flex astro-VTEBJ53Z"></div>
 </div>
 
 
 
-<div class="flex justify-center astro-KVG36FBZ">
-  <div class="w-[850px] hidden lg:flex astro-KVG36FBZ"></div>
-  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-KVG36FBZ">
-    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-right left-[-70%] astro-KVG36FBZ">
-      <ul class="mt-1 astro-KVG36FBZ">
-        <li class="astro-KVG36FBZ">Golang.</li><li class="astro-KVG36FBZ">gorilla/websocket.</li><li class="astro-KVG36FBZ">Vue.</li><li class="astro-KVG36FBZ">Vuex.</li><li class="astro-KVG36FBZ">Composition API.</li><li class="astro-KVG36FBZ">Tailwind.</li><li class="astro-KVG36FBZ">JavaScript.</li>
+<div class="flex justify-center astro-VTEBJ53Z">
+  <div class="w-[850px] hidden lg:flex astro-VTEBJ53Z"></div>
+  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-VTEBJ53Z">
+    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-right left-[-70%] astro-VTEBJ53Z">
+      <ul class="mt-1 astro-VTEBJ53Z">
+        <li class="astro-VTEBJ53Z">Golang.</li><li class="astro-VTEBJ53Z">gorilla/websocket.</li><li class="astro-VTEBJ53Z">Vue.</li><li class="astro-VTEBJ53Z">Vuex.</li><li class="astro-VTEBJ53Z">Composition API.</li><li class="astro-VTEBJ53Z">Tailwind.</li><li class="astro-VTEBJ53Z">JavaScript.</li>
       </ul>
     </div>
-    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-KVG36FBZ">
-      <img alt="memory" class="rounded-[10px] p-[1.5px] bg-white astro-KVG36FBZ" width="330" height="211" src="/assets/memoryImg_Z9IkDJ.png" loading="lazy" decoding="async">
+    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-VTEBJ53Z">
+      <img alt="memory" class="rounded-[10px] p-[1.5px] bg-white astro-VTEBJ53Z" width="330" height="211" src="/assets/memoryImg_Z1oqE6S.png" loading="lazy" decoding="async">
     </div>
-    <div class="flex my-5 items-center astro-KVG36FBZ">
-      <img alt="memory" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-KVG36FBZ" width="40" height="40" src="/assets/memory_1U6A9U.png" loading="lazy" decoding="async">
-      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-KVG36FBZ">memory</h2>
+    <div class="flex my-5 items-center astro-VTEBJ53Z">
+      <img alt="memory" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-VTEBJ53Z" width="40" height="40" src="/assets/memory_FogGL.png" loading="lazy" decoding="async">
+      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-VTEBJ53Z">memory</h2>
     </div>
-    <p class="text-[17px] astro-KVG36FBZ">Test your memory alone or with up to 3 friends online or locally. #Server&#39;s down for online play due to cost </p>
-    <div class="flex mt-auto pt-[40px] justify-end astro-KVG36FBZ">
-      <a href="https://github.com/andreasrobert/vite-memory-game" class="astro-KVG36FBZ">
-            <img alt="github" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-git astro-KVG36FBZ" width="40" height="40" src="/assets/github_Z2gU94w.svg" loading="lazy" decoding="async">
+    <p class="text-[17px] astro-VTEBJ53Z">Test your memory alone or with up to 3 friends online or locally. #Server&#39;s down for online play due to cost </p>
+    <div class="flex mt-auto pt-[40px] justify-end astro-VTEBJ53Z">
+      <a href="https://github.com/andreasrobert/vite-memory-game" class="astro-VTEBJ53Z">
+            <img alt="github" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-git astro-VTEBJ53Z" width="40" height="40" src="/assets/github_ZrCjwg.svg" loading="lazy" decoding="async">
           </a>
-      <a href="https://memory-vite.netlify.app/" class="astro-KVG36FBZ">
-            <img alt="link" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-red ml-3 astro-KVG36FBZ" width="40" height="40" src="/assets/external-link_Z9bGpM.svg" loading="lazy" decoding="async">
+      <a href="https://memory-vite.netlify.app/" class="astro-VTEBJ53Z">
+            <img alt="link" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-red ml-3 astro-VTEBJ53Z" width="40" height="40" src="/assets/external-link_Z1gI8xK.svg" loading="lazy" decoding="async">
           </a>
       
       
     </div>
-    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-KVG36FBZ">
-      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-KVG36FBZ" data-order="3">
+    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-VTEBJ53Z">
+      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-VTEBJ53Z" data-order="3">
         -
       </div>
 
-      <ul data-order="3" class="text-center hid m-stack mt-1 flex-col astro-KVG36FBZ">
-        <li class="mt-1 astro-KVG36FBZ">Golang.</li><li class="mt-1 astro-KVG36FBZ">gorilla/websocket.</li><li class="mt-1 astro-KVG36FBZ">Vue.</li><li class="mt-1 astro-KVG36FBZ">Vuex.</li><li class="mt-1 astro-KVG36FBZ">Composition API.</li><li class="mt-1 astro-KVG36FBZ">Tailwind.</li><li class="mt-1 astro-KVG36FBZ">JavaScript.</li>
+      <ul data-order="3" class="text-center hid m-stack mt-1 flex-col astro-VTEBJ53Z">
+        <li class="mt-1 astro-VTEBJ53Z">Golang.</li><li class="mt-1 astro-VTEBJ53Z">gorilla/websocket.</li><li class="mt-1 astro-VTEBJ53Z">Vue.</li><li class="mt-1 astro-VTEBJ53Z">Vuex.</li><li class="mt-1 astro-VTEBJ53Z">Composition API.</li><li class="mt-1 astro-VTEBJ53Z">Tailwind.</li><li class="mt-1 astro-VTEBJ53Z">JavaScript.</li>
       </ul>
-      <button data-order="3" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-KVG36FBZ">
-        +
-      </button>
-    </div>
-  </div>
-  
-</div>
-
-
-
-<div class="flex justify-center astro-KVG36FBZ">
-  
-  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-KVG36FBZ">
-    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-left right-[-70%] astro-KVG36FBZ">
-      <ul class="mt-1 astro-KVG36FBZ">
-        <li class="astro-KVG36FBZ">Unity.</li><li class="astro-KVG36FBZ">C#.</li>
-      </ul>
-    </div>
-    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-KVG36FBZ">
-      <img alt="bow and arrow... and dogs" class="rounded-[10px] p-[1.5px] bg-white astro-KVG36FBZ" width="330" height="211" src="/assets/bowImg_ZMNTWo.webp" loading="lazy" decoding="async">
-    </div>
-    <div class="flex my-5 items-center astro-KVG36FBZ">
-      <img alt="bow and arrow... and dogs" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-KVG36FBZ" width="40" height="40" src="/assets/bowImg_Z1GaL02.webp" loading="lazy" decoding="async">
-      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-KVG36FBZ">bow and arrow... and dogs</h2>
-    </div>
-    <p class="text-[17px] astro-KVG36FBZ">A 2D metroidvania-esque game. Each level has </p>
-    <div class="flex mt-auto pt-[40px] justify-end astro-KVG36FBZ">
-      <a href="https://github.com/andreasrobert" class="astro-KVG36FBZ">
-            <img alt="github" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-git astro-KVG36FBZ" width="40" height="40" src="/assets/github_Z2gU94w.svg" loading="lazy" decoding="async">
-          </a>
-      <a href="https://andreas-robert.itch.io/bow-and-arrow-and-dogs" class="astro-KVG36FBZ">
-            <img alt="link" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-red ml-3 astro-KVG36FBZ" width="40" height="40" src="/assets/external-link_Z9bGpM.svg" loading="lazy" decoding="async">
-          </a>
-      
-      
-    </div>
-    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-KVG36FBZ">
-      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-KVG36FBZ" data-order="4">
-        -
-      </div>
-
-      <ul data-order="4" class="text-center hid m-stack mt-1 flex-col astro-KVG36FBZ">
-        <li class="mt-1 astro-KVG36FBZ">Unity.</li><li class="mt-1 astro-KVG36FBZ">C#.</li>
-      </ul>
-      <button data-order="4" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-KVG36FBZ">
-        +
-      </button>
-    </div>
-  </div>
-  <div class="w-[850px] hidden lg:flex astro-KVG36FBZ"></div>
-</div>
-
-
-
-<div class="flex justify-center astro-KVG36FBZ">
-  <div class="w-[850px] hidden lg:flex astro-KVG36FBZ"></div>
-  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-KVG36FBZ">
-    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-right left-[-70%] astro-KVG36FBZ">
-      <ul class="mt-1 astro-KVG36FBZ">
-        <li class="astro-KVG36FBZ">Node js.</li><li class="astro-KVG36FBZ">Jwt.</li><li class="astro-KVG36FBZ">Postgres.</li><li class="astro-KVG36FBZ">Next js.</li><li class="astro-KVG36FBZ">React.</li><li class="astro-KVG36FBZ">Chakra UI.</li><li class="astro-KVG36FBZ">TypeScript.</li>
-      </ul>
-    </div>
-    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-KVG36FBZ">
-      <img alt="The Feed" class="rounded-[10px] p-[1.5px] bg-white astro-KVG36FBZ" width="330" height="211" src="/assets/feedImg_ZrIEa0.webp" loading="lazy" decoding="async">
-    </div>
-    <div class="flex my-5 items-center astro-KVG36FBZ">
-      <img alt="The Feed" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-KVG36FBZ" width="40" height="40" src="/assets/feed_1BXVlG.png" loading="lazy" decoding="async">
-      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-KVG36FBZ">The Feed</h2>
-    </div>
-    <p class="text-[17px] astro-KVG36FBZ">A fullstack Reddit-like clone site. #BE Server is down 🚫💰</p>
-    <div class="flex mt-auto pt-[40px] justify-end astro-KVG36FBZ">
-      <a href="https://github.com/andreasrobert/feed-client" class="astro-KVG36FBZ">
-            <img alt="github" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-git astro-KVG36FBZ" width="40" height="40" src="/assets/github_Z2gU94w.svg" loading="lazy" decoding="async">
-          </a>
-      <a href="https://thefeed.netlify.app/" class="astro-KVG36FBZ">
-            <img alt="link" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-red ml-3 astro-KVG36FBZ" width="40" height="40" src="/assets/external-link_Z9bGpM.svg" loading="lazy" decoding="async">
-          </a>
-      
-      
-    </div>
-    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-KVG36FBZ">
-      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-KVG36FBZ" data-order="5">
-        -
-      </div>
-
-      <ul data-order="5" class="text-center hid m-stack mt-1 flex-col astro-KVG36FBZ">
-        <li class="mt-1 astro-KVG36FBZ">Node js.</li><li class="mt-1 astro-KVG36FBZ">Jwt.</li><li class="mt-1 astro-KVG36FBZ">Postgres.</li><li class="mt-1 astro-KVG36FBZ">Next js.</li><li class="mt-1 astro-KVG36FBZ">React.</li><li class="mt-1 astro-KVG36FBZ">Chakra UI.</li><li class="mt-1 astro-KVG36FBZ">TypeScript.</li>
-      </ul>
-      <button data-order="5" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-KVG36FBZ">
+      <button data-order="3" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-VTEBJ53Z">
         +
       </button>
     </div>
@@ -265,83 +177,85 @@
 
 
 
-<div class="flex justify-center astro-KVG36FBZ">
+<div class="flex justify-center astro-VTEBJ53Z">
   
-  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-KVG36FBZ">
-    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-left right-[-70%] astro-KVG36FBZ">
-      <ul class="mt-1 astro-KVG36FBZ">
-        <li class="astro-KVG36FBZ">Gnews API.</li><li class="astro-KVG36FBZ">Coingecko API.</li><li class="astro-KVG36FBZ">Theguardian API.</li><li class="astro-KVG36FBZ">Nytimes API.</li><li class="astro-KVG36FBZ">Next js.</li><li class="astro-KVG36FBZ">React.</li><li class="astro-KVG36FBZ">Chakra UI.</li><li class="astro-KVG36FBZ">TypeScript.</li>
+  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-VTEBJ53Z">
+    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-left right-[-70%] astro-VTEBJ53Z">
+      <ul class="mt-1 astro-VTEBJ53Z">
+        <li class="astro-VTEBJ53Z">Unity.</li><li class="astro-VTEBJ53Z">C#.</li>
       </ul>
     </div>
-    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-KVG36FBZ">
-      <img alt="the olden times" class="rounded-[10px] p-[1.5px] bg-white astro-KVG36FBZ" width="330" height="211" src="/assets/oldTimeImg_Z1yM3r0.webp" loading="lazy" decoding="async">
+    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-VTEBJ53Z">
+      <img alt="bow and arrow... and dogs" class="rounded-[10px] p-[1.5px] bg-white astro-VTEBJ53Z" width="330" height="211" src="/assets/bowImg_Z22wepx.webp" loading="lazy" decoding="async">
     </div>
-    <div class="flex my-5 items-center astro-KVG36FBZ">
-      <img alt="the olden times" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-KVG36FBZ" width="40" height="40" src="/assets/oldTime_ZqopAQ.png" loading="lazy" decoding="async">
-      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-KVG36FBZ">the olden times</h2>
+    <div class="flex my-5 items-center astro-VTEBJ53Z">
+      <img alt="bow and arrow... and dogs" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-VTEBJ53Z" width="40" height="40" src="/assets/bowImg_29j3lK.webp" loading="lazy" decoding="async">
+      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-VTEBJ53Z">bow and arrow... and dogs</h2>
     </div>
-    <p class="text-[17px] astro-KVG36FBZ">Newspaper app with a retro feel.</p>
-    <div class="flex mt-auto pt-[40px] justify-end astro-KVG36FBZ">
-      <a href="https://github.com/andreasrobert/new-times-client" class="astro-KVG36FBZ">
-            <img alt="github" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-git astro-KVG36FBZ" width="40" height="40" src="/assets/github_Z2gU94w.svg" loading="lazy" decoding="async">
+    <p class="text-[17px] astro-VTEBJ53Z">A 2D metroidvania-esque game. Each level has </p>
+    <div class="flex mt-auto pt-[40px] justify-end astro-VTEBJ53Z">
+      <a href="https://github.com/andreasrobert" class="astro-VTEBJ53Z">
+            <img alt="github" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-git astro-VTEBJ53Z" width="40" height="40" src="/assets/github_ZrCjwg.svg" loading="lazy" decoding="async">
           </a>
-      <a href="https://oldentimes.netlify.app/" class="astro-KVG36FBZ">
-            <img alt="link" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-red ml-3 astro-KVG36FBZ" width="40" height="40" src="/assets/external-link_Z9bGpM.svg" loading="lazy" decoding="async">
+      <a href="https://andreas-robert.itch.io/bow-and-arrow-and-dogs" class="astro-VTEBJ53Z">
+            <img alt="link" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-red ml-3 astro-VTEBJ53Z" width="40" height="40" src="/assets/external-link_Z1gI8xK.svg" loading="lazy" decoding="async">
           </a>
       
       
     </div>
-    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-KVG36FBZ">
-      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-KVG36FBZ" data-order="6">
+    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-VTEBJ53Z">
+      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-VTEBJ53Z" data-order="4">
         -
       </div>
 
-      <ul data-order="6" class="text-center hid m-stack mt-1 flex-col astro-KVG36FBZ">
-        <li class="mt-1 astro-KVG36FBZ">Gnews API.</li><li class="mt-1 astro-KVG36FBZ">Coingecko API.</li><li class="mt-1 astro-KVG36FBZ">Theguardian API.</li><li class="mt-1 astro-KVG36FBZ">Nytimes API.</li><li class="mt-1 astro-KVG36FBZ">Next js.</li><li class="mt-1 astro-KVG36FBZ">React.</li><li class="mt-1 astro-KVG36FBZ">Chakra UI.</li><li class="mt-1 astro-KVG36FBZ">TypeScript.</li>
+      <ul data-order="4" class="text-center hid m-stack mt-1 flex-col astro-VTEBJ53Z">
+        <li class="mt-1 astro-VTEBJ53Z">Unity.</li><li class="mt-1 astro-VTEBJ53Z">C#.</li>
       </ul>
-      <button data-order="6" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-KVG36FBZ">
+      <button data-order="4" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-VTEBJ53Z">
         +
       </button>
     </div>
   </div>
-  <div class="w-[850px] hidden lg:flex astro-KVG36FBZ"></div>
+  <div class="w-[850px] hidden lg:flex astro-VTEBJ53Z"></div>
 </div>
 
 
 
-<div class="flex justify-center astro-KVG36FBZ">
-  <div class="w-[850px] hidden lg:flex astro-KVG36FBZ"></div>
-  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-KVG36FBZ">
-    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-right left-[-70%] astro-KVG36FBZ">
-      <ul class="mt-1 astro-KVG36FBZ">
-        <li class="astro-KVG36FBZ">Next js.</li><li class="astro-KVG36FBZ">React.</li><li class="astro-KVG36FBZ">Chakra UI.</li><li class="astro-KVG36FBZ">Framer Motion.</li><li class="astro-KVG36FBZ">TypeScript.</li>
+<div class="flex justify-center astro-VTEBJ53Z">
+  <div class="w-[850px] hidden lg:flex astro-VTEBJ53Z"></div>
+  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-VTEBJ53Z">
+    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-right left-[-70%] astro-VTEBJ53Z">
+      <ul class="mt-1 astro-VTEBJ53Z">
+        <li class="astro-VTEBJ53Z">Node js.</li><li class="astro-VTEBJ53Z">Jwt.</li><li class="astro-VTEBJ53Z">Postgres.</li><li class="astro-VTEBJ53Z">Next js.</li><li class="astro-VTEBJ53Z">React.</li><li class="astro-VTEBJ53Z">Chakra UI.</li><li class="astro-VTEBJ53Z">TypeScript.</li>
       </ul>
     </div>
-    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-KVG36FBZ">
-      <img alt="galleria" class="rounded-[10px] p-[1.5px] bg-white astro-KVG36FBZ" width="330" height="211" src="/assets/theGallaImg_Z2tNTHJ.webp" loading="lazy" decoding="async">
+    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-VTEBJ53Z">
+      <img alt="The Feed" class="rounded-[10px] p-[1.5px] bg-white astro-VTEBJ53Z" width="330" height="211" src="/assets/feedImg_Z1GqXC9.webp" loading="lazy" decoding="async">
     </div>
-    <div class="flex my-5 items-center astro-KVG36FBZ">
-      <img alt="galleria" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-KVG36FBZ" width="40" height="40" src="/assets/theGalla_xmGmA.png" loading="lazy" decoding="async">
-      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-KVG36FBZ">galleria</h2>
+    <div class="flex my-5 items-center astro-VTEBJ53Z">
+      <img alt="The Feed" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-VTEBJ53Z" width="40" height="40" src="/assets/feed_ngBSx.png" loading="lazy" decoding="async">
+      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-VTEBJ53Z">The Feed</h2>
     </div>
-    <p class="text-[17px] astro-KVG36FBZ">An art gallary of iconic paintings.</p>
-    <div class="flex mt-auto pt-[40px] justify-end astro-KVG36FBZ">
-      
-      <a href="https://thegalla.netlify.app" class="astro-KVG36FBZ">
-            <img alt="link" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-red ml-3 astro-KVG36FBZ" width="40" height="40" src="/assets/external-link_Z9bGpM.svg" loading="lazy" decoding="async">
+    <p class="text-[17px] astro-VTEBJ53Z">A fullstack Reddit-like clone site. #BE Server is down 🚫💰</p>
+    <div class="flex mt-auto pt-[40px] justify-end astro-VTEBJ53Z">
+      <a href="https://github.com/andreasrobert/feed-client" class="astro-VTEBJ53Z">
+            <img alt="github" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-git astro-VTEBJ53Z" width="40" height="40" src="/assets/github_ZrCjwg.svg" loading="lazy" decoding="async">
+          </a>
+      <a href="https://thefeed.netlify.app/" class="astro-VTEBJ53Z">
+            <img alt="link" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-red ml-3 astro-VTEBJ53Z" width="40" height="40" src="/assets/external-link_Z1gI8xK.svg" loading="lazy" decoding="async">
           </a>
       
       
     </div>
-    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-KVG36FBZ">
-      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-KVG36FBZ" data-order="7">
+    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-VTEBJ53Z">
+      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-VTEBJ53Z" data-order="5">
         -
       </div>
 
-      <ul data-order="7" class="text-center hid m-stack mt-1 flex-col astro-KVG36FBZ">
-        <li class="mt-1 astro-KVG36FBZ">Next js.</li><li class="mt-1 astro-KVG36FBZ">React.</li><li class="mt-1 astro-KVG36FBZ">Chakra UI.</li><li class="mt-1 astro-KVG36FBZ">Framer Motion.</li><li class="mt-1 astro-KVG36FBZ">TypeScript.</li>
+      <ul data-order="5" class="text-center hid m-stack mt-1 flex-col astro-VTEBJ53Z">
+        <li class="mt-1 astro-VTEBJ53Z">Node js.</li><li class="mt-1 astro-VTEBJ53Z">Jwt.</li><li class="mt-1 astro-VTEBJ53Z">Postgres.</li><li class="mt-1 astro-VTEBJ53Z">Next js.</li><li class="mt-1 astro-VTEBJ53Z">React.</li><li class="mt-1 astro-VTEBJ53Z">Chakra UI.</li><li class="mt-1 astro-VTEBJ53Z">TypeScript.</li>
       </ul>
-      <button data-order="7" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-KVG36FBZ">
+      <button data-order="5" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-VTEBJ53Z">
         +
       </button>
     </div>
@@ -351,79 +265,165 @@
 
 
 
-<div class="flex justify-center astro-KVG36FBZ">
+<div class="flex justify-center astro-VTEBJ53Z">
   
-  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-KVG36FBZ">
-    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-left right-[-70%] astro-KVG36FBZ">
-      <ul class="mt-1 astro-KVG36FBZ">
-        <li class="astro-KVG36FBZ">Next js.</li><li class="astro-KVG36FBZ">React.</li><li class="astro-KVG36FBZ">Styled Components.</li><li class="astro-KVG36FBZ">Framer Motion.</li><li class="astro-KVG36FBZ">TypeScript.</li>
+  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-VTEBJ53Z">
+    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-left right-[-70%] astro-VTEBJ53Z">
+      <ul class="mt-1 astro-VTEBJ53Z">
+        <li class="astro-VTEBJ53Z">Gnews API.</li><li class="astro-VTEBJ53Z">Coingecko API.</li><li class="astro-VTEBJ53Z">Theguardian API.</li><li class="astro-VTEBJ53Z">Nytimes API.</li><li class="astro-VTEBJ53Z">Next js.</li><li class="astro-VTEBJ53Z">React.</li><li class="astro-VTEBJ53Z">Chakra UI.</li><li class="astro-VTEBJ53Z">TypeScript.</li>
       </ul>
     </div>
-    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-KVG36FBZ">
-      <img alt="planetfacts" class="rounded-[10px] p-[1.5px] bg-white astro-KVG36FBZ" width="330" height="211" src="/assets/planetfactsImg_1AD3Kl.webp" loading="lazy" decoding="async">
+    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-VTEBJ53Z">
+      <img alt="the olden times" class="rounded-[10px] p-[1.5px] bg-white astro-VTEBJ53Z" width="330" height="211" src="/assets/oldTimeImg_2gGKTM.webp" loading="lazy" decoding="async">
     </div>
-    <div class="flex my-5 items-center astro-KVG36FBZ">
-      <img alt="planetfacts" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-KVG36FBZ" width="40" height="40" src="/assets/planetfacts_16UICt.png" loading="lazy" decoding="async">
-      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-KVG36FBZ">planetfacts</h2>
+    <div class="flex my-5 items-center astro-VTEBJ53Z">
+      <img alt="the olden times" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-VTEBJ53Z" width="40" height="40" src="/assets/oldTime_Z1F6J40.png" loading="lazy" decoding="async">
+      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-VTEBJ53Z">the olden times</h2>
     </div>
-    <p class="text-[17px] astro-KVG36FBZ">Learn more about our solar system.</p>
-    <div class="flex mt-auto pt-[40px] justify-end astro-KVG36FBZ">
-      <a href="https://github.com/andreasrobert/planet-fact-nextjs" class="astro-KVG36FBZ">
-            <img alt="github" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-git astro-KVG36FBZ" width="40" height="40" src="/assets/github_Z2gU94w.svg" loading="lazy" decoding="async">
+    <p class="text-[17px] astro-VTEBJ53Z">Newspaper app with a retro feel.</p>
+    <div class="flex mt-auto pt-[40px] justify-end astro-VTEBJ53Z">
+      <a href="https://github.com/andreasrobert/new-times-client" class="astro-VTEBJ53Z">
+            <img alt="github" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-git astro-VTEBJ53Z" width="40" height="40" src="/assets/github_ZrCjwg.svg" loading="lazy" decoding="async">
           </a>
-      <a href="https://planetfacts.netlify.app" class="astro-KVG36FBZ">
-            <img alt="link" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-red ml-3 astro-KVG36FBZ" width="40" height="40" src="/assets/external-link_Z9bGpM.svg" loading="lazy" decoding="async">
+      <a href="https://oldentimes.netlify.app/" class="astro-VTEBJ53Z">
+            <img alt="link" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-red ml-3 astro-VTEBJ53Z" width="40" height="40" src="/assets/external-link_Z1gI8xK.svg" loading="lazy" decoding="async">
           </a>
       
       
     </div>
-    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-KVG36FBZ">
-      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-KVG36FBZ" data-order="8">
+    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-VTEBJ53Z">
+      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-VTEBJ53Z" data-order="6">
         -
       </div>
 
-      <ul data-order="8" class="text-center hid m-stack mt-1 flex-col astro-KVG36FBZ">
-        <li class="mt-1 astro-KVG36FBZ">Next js.</li><li class="mt-1 astro-KVG36FBZ">React.</li><li class="mt-1 astro-KVG36FBZ">Styled Components.</li><li class="mt-1 astro-KVG36FBZ">Framer Motion.</li><li class="mt-1 astro-KVG36FBZ">TypeScript.</li>
+      <ul data-order="6" class="text-center hid m-stack mt-1 flex-col astro-VTEBJ53Z">
+        <li class="mt-1 astro-VTEBJ53Z">Gnews API.</li><li class="mt-1 astro-VTEBJ53Z">Coingecko API.</li><li class="mt-1 astro-VTEBJ53Z">Theguardian API.</li><li class="mt-1 astro-VTEBJ53Z">Nytimes API.</li><li class="mt-1 astro-VTEBJ53Z">Next js.</li><li class="mt-1 astro-VTEBJ53Z">React.</li><li class="mt-1 astro-VTEBJ53Z">Chakra UI.</li><li class="mt-1 astro-VTEBJ53Z">TypeScript.</li>
       </ul>
-      <button data-order="8" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-KVG36FBZ">
+      <button data-order="6" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-VTEBJ53Z">
         +
       </button>
     </div>
   </div>
-  <div class="w-[850px] hidden lg:flex astro-KVG36FBZ"></div>
+  <div class="w-[850px] hidden lg:flex astro-VTEBJ53Z"></div>
+</div>
+
+
+
+<div class="flex justify-center astro-VTEBJ53Z">
+  <div class="w-[850px] hidden lg:flex astro-VTEBJ53Z"></div>
+  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-VTEBJ53Z">
+    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-right left-[-70%] astro-VTEBJ53Z">
+      <ul class="mt-1 astro-VTEBJ53Z">
+        <li class="astro-VTEBJ53Z">Next js.</li><li class="astro-VTEBJ53Z">React.</li><li class="astro-VTEBJ53Z">Chakra UI.</li><li class="astro-VTEBJ53Z">Framer Motion.</li><li class="astro-VTEBJ53Z">TypeScript.</li>
+      </ul>
+    </div>
+    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-VTEBJ53Z">
+      <img alt="galleria" class="rounded-[10px] p-[1.5px] bg-white astro-VTEBJ53Z" width="330" height="211" src="/assets/theGallaImg_1lETD3.webp" loading="lazy" decoding="async">
+    </div>
+    <div class="flex my-5 items-center astro-VTEBJ53Z">
+      <img alt="galleria" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-VTEBJ53Z" width="40" height="40" src="/assets/theGalla_ZGkC5y.png" loading="lazy" decoding="async">
+      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-VTEBJ53Z">galleria</h2>
+    </div>
+    <p class="text-[17px] astro-VTEBJ53Z">An art gallary of iconic paintings.</p>
+    <div class="flex mt-auto pt-[40px] justify-end astro-VTEBJ53Z">
+      
+      <a href="https://thegalla.netlify.app" class="astro-VTEBJ53Z">
+            <img alt="link" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-red ml-3 astro-VTEBJ53Z" width="40" height="40" src="/assets/external-link_Z1gI8xK.svg" loading="lazy" decoding="async">
+          </a>
+      
+      
+    </div>
+    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-VTEBJ53Z">
+      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-VTEBJ53Z" data-order="7">
+        -
+      </div>
+
+      <ul data-order="7" class="text-center hid m-stack mt-1 flex-col astro-VTEBJ53Z">
+        <li class="mt-1 astro-VTEBJ53Z">Next js.</li><li class="mt-1 astro-VTEBJ53Z">React.</li><li class="mt-1 astro-VTEBJ53Z">Chakra UI.</li><li class="mt-1 astro-VTEBJ53Z">Framer Motion.</li><li class="mt-1 astro-VTEBJ53Z">TypeScript.</li>
+      </ul>
+      <button data-order="7" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-VTEBJ53Z">
+        +
+      </button>
+    </div>
+  </div>
+  
+</div>
+
+
+
+<div class="flex justify-center astro-VTEBJ53Z">
+  
+  <div id="project" class="project-card w-[90%] p-[30px] rounded-[12px] border-[3px] border-black shadow-card mt-[100px] min-h-[500px] lg:w-[400px] shrink-0 lg:mt-[-140px] lg:mb-[-50px] relative flex flex-col astro-VTEBJ53Z">
+    <div class="border-t border-black absolute w-[59%] top-[300px] hidden lg:flex stack-left right-[-70%] astro-VTEBJ53Z">
+      <ul class="mt-1 astro-VTEBJ53Z">
+        <li class="astro-VTEBJ53Z">Next js.</li><li class="astro-VTEBJ53Z">React.</li><li class="astro-VTEBJ53Z">Styled Components.</li><li class="astro-VTEBJ53Z">Framer Motion.</li><li class="astro-VTEBJ53Z">TypeScript.</li>
+      </ul>
+    </div>
+    <div class="rounded-[10px] border-[2px] border-black shadow-image astro-VTEBJ53Z">
+      <img alt="planetfacts" class="rounded-[10px] p-[1.5px] bg-white astro-VTEBJ53Z" width="330" height="211" src="/assets/planetfactsImg_lUJic.webp" loading="lazy" decoding="async">
+    </div>
+    <div class="flex my-5 items-center astro-VTEBJ53Z">
+      <img alt="planetfacts" class="rounded-full border border-black w-[40px] h-[40px] shrink-0 mr-4 mb-auto astro-VTEBJ53Z" width="40" height="40" src="/assets/planetfacts_Z7LzOF.png" loading="lazy" decoding="async">
+      <h2 class="tracking-[2px] font-bold text-[26px] leading-7 astro-VTEBJ53Z">planetfacts</h2>
+    </div>
+    <p class="text-[17px] astro-VTEBJ53Z">Learn more about our solar system.</p>
+    <div class="flex mt-auto pt-[40px] justify-end astro-VTEBJ53Z">
+      <a href="https://github.com/andreasrobert/planet-fact-nextjs" class="astro-VTEBJ53Z">
+            <img alt="github" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-git astro-VTEBJ53Z" width="40" height="40" src="/assets/github_ZrCjwg.svg" loading="lazy" decoding="async">
+          </a>
+      <a href="https://planetfacts.netlify.app" class="astro-VTEBJ53Z">
+            <img alt="link" class="w-[40px] h-[40px] border-2 border-black rounded-[10px] p-[6px] hover:shadow-red ml-3 astro-VTEBJ53Z" width="40" height="40" src="/assets/external-link_Z1gI8xK.svg" loading="lazy" decoding="async">
+          </a>
+      
+      
+    </div>
+    <div class="border-t border-black mt-[30px] flex flex-col items-center relative lg:hidden min-h-[46px] astro-VTEBJ53Z">
+      <div class="rounded-full border border-black w-[25px] h-[25px] text-center absolute cursor-pointer left-0 top-2 hidden collapse-stack justify-center items-center astro-VTEBJ53Z" data-order="8">
+        -
+      </div>
+
+      <ul data-order="8" class="text-center hid m-stack mt-1 flex-col astro-VTEBJ53Z">
+        <li class="mt-1 astro-VTEBJ53Z">Next js.</li><li class="mt-1 astro-VTEBJ53Z">React.</li><li class="mt-1 astro-VTEBJ53Z">Styled Components.</li><li class="mt-1 astro-VTEBJ53Z">Framer Motion.</li><li class="mt-1 astro-VTEBJ53Z">TypeScript.</li>
+      </ul>
+      <button data-order="8" class="rounded-full border border-black w-[25px] h-[25px] text-center cursor-pointer m-2 expand-stack justify-center items-center astro-VTEBJ53Z">
+        +
+      </button>
+    </div>
+  </div>
+  <div class="w-[850px] hidden lg:flex astro-VTEBJ53Z"></div>
 </div>
 
 
 
 
     </section>
-    <footer class="flex mt-[270px] mb-[200px] justify-center flex-col md:flex-row items-center astro-3YF2GSA3" id="contact">
-  <div class="w-[180px] h-[180px] rounded-[50px] border-4 border-black shadow-hand bg-shade astro-3YF2GSA3">
-    <img alt="waving hand" class="wave p-3 astro-3YF2GSA3" width="512" height="512" src="/assets/hand_Z1kJknC.png" loading="lazy" decoding="async">
+    <footer class="flex mt-[270px] mb-[200px] justify-center flex-col md:flex-row items-center astro-BYXASTS3" id="contact">
+  <div class="w-[180px] h-[180px] rounded-[50px] border-4 border-black shadow-hand bg-shade astro-BYXASTS3">
+    <img alt="waving hand" class="wave p-3 astro-BYXASTS3" width="512" height="512" src="/assets/hand_Z2mvP9b.png" loading="lazy" decoding="async">
   </div>
-  <div class="ml-8 mt-8 md:mt-[10px] astro-3YF2GSA3">
-    <ul class="astro-3YF2GSA3">
-      <li class="astro-3YF2GSA3">
-        <a href="https://github.com/andreasrobert" class="astro-3YF2GSA3">
-          <img alt="github" class="hover:shadow-git astro-3YF2GSA3" width="40" height="40" src="/assets/github_MvhWW.svg" loading="lazy" decoding="async">
+  <div class="ml-8 mt-8 md:mt-[10px] astro-BYXASTS3">
+    <ul class="astro-BYXASTS3">
+      <li class="astro-BYXASTS3">
+        <a href="https://github.com/andreasrobert" class="astro-BYXASTS3">
+          <img alt="github" class="hover:shadow-git astro-BYXASTS3" width="40" height="40" src="/assets/github_ZegcMB.svg" loading="lazy" decoding="async">
           Github
         </a>
       </li>
-      <li class="astro-3YF2GSA3">
-        <a href="/Andreas Robert Pitoy Resume.pdf" class="astro-3YF2GSA3">
-          <img alt="resume" class="hover:shadow-whi astro-3YF2GSA3" width="40" height="40" src="/assets/paperclip_Z24dLDm.svg" loading="lazy" decoding="async">
+      <li class="astro-BYXASTS3">
+        <a href="/Andreas Robert Pitoy Resume.pdf" class="astro-BYXASTS3">
+          <img alt="resume" class="hover:shadow-whi astro-BYXASTS3" width="40" height="40" src="/assets/paperclip_25IjId.svg" loading="lazy" decoding="async">
           Resume
         </a>
       </li>
-      <li class="astro-3YF2GSA3">
-        <a href="https://www.linkedin.com/in/robertpitoy/" class="astro-3YF2GSA3">
-          <img alt="linkedin" class="hover:shadow-blu astro-3YF2GSA3" width="40" height="40" src="/assets/linkedin_CJWyc.svg" loading="lazy" decoding="async">
+      <li class="astro-BYXASTS3">
+        <a href="https://www.linkedin.com/in/robertpitoy/" class="astro-BYXASTS3">
+          <img alt="linkedin" class="hover:shadow-blu astro-BYXASTS3" width="40" height="40" src="/assets/linkedin_Z29Iigc.svg" loading="lazy" decoding="async">
           Linkedin
         </a>
       </li>
-      <li class="astro-3YF2GSA3">
-        <a href="mailto:andreasrobb23@gmail.com" class="astro-3YF2GSA3">
-          <img alt="email" class="hover:shadow-red astro-3YF2GSA3" width="40" height="40" src="/assets/mail_Z7JRj8.svg" loading="lazy" decoding="async">
+      <li class="astro-BYXASTS3">
+        <a href="mailto:andreasrobb23@gmail.com" class="astro-BYXASTS3">
+          <img alt="email" class="hover:shadow-red astro-BYXASTS3" width="40" height="40" src="/assets/mail_ZpdVQL.svg" loading="lazy" decoding="async">
           andreasrobb23@gmail.com
         </a>
       </li>
